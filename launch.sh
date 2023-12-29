@@ -11,9 +11,9 @@ else
 	exit 99
 fi
 
-if ! [[ -f Not+Too+Complicated2-1.5.1-server.zip ]]; then
+if ! [[ -f Equivalent+Skies+-+1.3.3+Server+File.zip ]]; then
   rm -fr config defaultconfigs scripts forge-*.jar start.sh *Server.zip
-	curl -Lo Not+Too+Complicated2-1.5.1-server.zip 'https://mediafilez.forgecdn.net/files/3957/451/Not+Too+Complicated2-1.5.1-server.zip' && unzip -u -o 'Not+Too+Complicated2-1.5.1-server.zip' -d /data
+	curl -Lo Equivalent+Skies+-+1.3.3+Server+File.zip 'https://mediafilez.forgecdn.net/files/2680/137/Equivalent+Skies+-+1.3.3+Server+File.zip' && unzip -u -o 'Equivalent+Skies+-+1.3.3+Server+File.zip' -d /data
 fi
 
 if [[ -n "$OPS" ]]; then
